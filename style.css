@@ -1,0 +1,141 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(139, 149, 86);
+  color: #ddd;
+}
+
+header {
+  background-color: rgb(139, 149, 86);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+nav button {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(117, 109, 84);
+  border: 2px solid rgb(39, 59, 9);
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  outline: none;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav button:hover {
+  background-color: rgb(171, 181, 87);
+  color: white;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  transition: border-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+#learnWordSection,
+#quizSection,
+#vocabSection {
+  background-color: rgb(109, 84, 93);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  transition: font-size 0.3s ease;
+  transition: font-weight 0.3s ease;
+}
+
+#quizOptions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.quiz-option {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(171, 181, 87);
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  font-size: 1.2em;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.quiz-option:hover {
+  background-color: #e0e0e0;
+  color: rgb(221, 216, 216);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#quizFeedback {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(2, 3, 2);
+  margin-bottom: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+input {
+  padding: 30px;
+  margin: 15px;
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(171, 181, 87);
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #dae3db;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}

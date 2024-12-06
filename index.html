@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Language Learning App</h1>
+    <nav>
+      <button id="learnWordBtn">Learn Word</button>
+      <button id="quizBtn">Quiz</button>
+      <button id="vocabBtn">Vocabulary</button>
+    </nav>
+  </header>
+
+  <main>
+ 
+    <section id="learnWordSection">
+      <h2>Learn Word</h2>
+      <p id="learnWord">Click Learn Word Button</p>
+    </section>
+
+    
+    <section id="quizSection" hidden>
+      <h2>Quiz</h2>
+      <p id="quizQuestion">Click button to start quiz</p>
+      <div id="quizOptions"></div>
+      <div id="quizFeedback"></div>
+    </section>
+
+
+    <section id="vocabSection" hidden>
+      <h2>Vocabulary</h2>
+      <ul id="vocabList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
